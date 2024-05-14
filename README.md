@@ -11,7 +11,7 @@
   .\venv\Scripts\activate.ps1
   ```
 - Install the requirements
-- ```pip install -r requirements.txt
+- ```pip install -r requirements.txt```
   
 # Usage
 - Run the app
