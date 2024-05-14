@@ -1,0 +1,8 @@
+{% block content %}
+    <h1>Delete Post</h1>
+    <form method="POST">{% csrf_token %}
+        <p>Are you sure you want to delete "{{ post.title }}"?</p>
+        <button type="submit">Delete</button>
+    </form>
+    <a href="{% url 'detail' post.id %}">Back</a>
+{% endblock %}
