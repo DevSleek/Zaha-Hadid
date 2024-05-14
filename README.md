@@ -4,7 +4,7 @@
 - Create Virtualenv
 - ```python3 -m venv venv```
 - Activate virtualenv
-- <b>linux for:</b>
+- <b>Linux for:</b>
    ```source venv/bin/activate```   
   <b>Windows for:</b>
   ```
