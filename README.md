@@ -5,8 +5,8 @@
 - ```python3 -m venv venv```
 - Activate virtualenv
 - ```linux for:
-   source venv/bin/activate
-     Windows for:
+   source venv/bin/activate```   
+  ```Windows for:
   .\venv\Scripts\activate.bat
   .\venv\Scripts\activate.ps1
   ```
