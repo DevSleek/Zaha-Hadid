@@ -1,9 +1,9 @@
 {% block content %}
 {% if post %}
     <p>{{ post.published_year | date:"d-m-Y" }}</p>
-    <h1>{{ post.title }}</h1>
+    <h1>{{ post.title}}</h1>
     <img src="{{ post.photo.url }}" alt="">
-    <p>{{ post.description }}</p>
+    <p>{{ post.description | safe}}</p>
 
     <a href="{% url 'update' post.id %}">Update</a>
     <a href="{% url 'delete' post.id %}">Delete</a>
