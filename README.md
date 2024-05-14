@@ -15,5 +15,6 @@
  ```pip install -r requirements.txt```
   
 # Usage
+- Rename .env_exam to .env
 - Run the app
   ```python manage.py runserver```
