@@ -3,7 +3,7 @@
  ``` git clone https://github.com/DevSleek/Zaha-Hadid```
 - Create Virtualenv
  ```python3 -m venv venv```
-- Activate virtualenv
+- Activate virtualenv<br>
  <b>Linux for:</b>
    ```source venv/bin/activate```   
   <b>Windows for:</b>
