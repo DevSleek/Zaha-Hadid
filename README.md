@@ -4,9 +4,10 @@
 - Create Virtualenv
 - ```python3 -m venv venv```
 - Activate virtualenv
-- ```linux for:
-   source venv/bin/activate```   
-  ```Windows for:
+- <b>linux for:</b>
+   ```source venv/bin/activate```   
+  <b>Windows for:</b>
+  ```
   .\venv\Scripts\activate.bat
   .\venv\Scripts\activate.ps1
   ```
